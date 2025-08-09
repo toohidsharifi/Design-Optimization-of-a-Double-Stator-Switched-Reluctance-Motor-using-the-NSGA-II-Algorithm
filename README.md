@@ -14,9 +14,7 @@
   - [The Pareto Front](#the-pareto-front)
   - [Selecting the Optimal Design](#selecting-the-optimal-design)
   - [Performance Comparison](#performance-comparison)
-- [Getting Started](#getting-started)
-- [How to Cite](#how-to-cite)
-- [License](#license)
+- [Prerequisites](#Prerequisites)
 - [Contact](#contact)
 
 ## The Challenge
@@ -102,7 +100,7 @@ The final performance metrics are as follows:
 This study successfully shows that combining the DSSRM topology with the NSGA-II algorithm is an effective strategy for developing high-performance SRMs.
 
 
-### Prerequisites
+## Prerequisites
 
 * Necessary software or libraries: MATLAB, ANSYS Electronics Desktop (Maxwell).
 
