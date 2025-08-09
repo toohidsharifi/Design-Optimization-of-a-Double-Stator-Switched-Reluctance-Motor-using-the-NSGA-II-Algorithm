@@ -1,6 +1,8 @@
 # Design Optimization of a Double-Stator Switched Reluctance Motor using the NSGA-II Algorithm
-# Project Language: English
+
 > A multi-objective optimization of a Double-Stator Switched Reluctance Motor (DSSRM) using the NSGA-II algorithm. This study aims to overcome the traditional limitations of Switched Reluctance Motors (SRMs), such as high torque ripple and low torque density, by developing a design that is superior in both performance and efficiency.
+
+### Project Language: English
 
 ## Table of Contents
 
@@ -17,7 +19,7 @@
 - [Prerequisites](#Prerequisites)
 - [Contact](#contact)
 
-## The Challenge
+### The Challenge
 
 Switched Reluctance Motors (SRMs) are known for their robust, magnet-free construction. However, their broader use is limited by two significant disadvantages:
 1.  **High Torque Ripple**: The discrete, non-linear torque production mechanism in SRMs results in significant torque pulsations, which can cause vibrations and acoustic noise.
@@ -29,13 +31,13 @@ Switched Reluctance Motors (SRMs) are known for their robust, magnet-free constr
   <em>Fig 1. The radial-flux SRM configuration.</em>
 </p>
 
-## The Solution: Double-Stator SRM
+### The Solution: Double-Stator SRM
 
 To address these issues, this project investigates an innovative **Double-Stator SRM (DSSRM)** topology. This design features an inner and outer stator with a shared rotor in between. By carefully controlling the two stators, the torque pulsations can be designed to counteract each other, leading to a significant reduction in overall torque ripple.
 
 While the DSSRM structure effectively improves torque quality, achieving high average torque density is a complex design challenge requiring formal optimization.
 
-## Methodology
+### Methodology
 
 The design process involves navigating a complex web of conflicting objectives. For instance, increasing torque often increases manufacturing cost, while modifications to reduce ripple might compromise efficiency. This necessitates a multi-objective optimization approach.
 
@@ -66,7 +68,7 @@ The **Non-dominated Sorting Genetic Algorithm II (NSGA-II)** was used to solve t
 - **Non-Dominated Sorting**: To rank solutions into layers (fronts) based on Pareto dominance.
 - **Crowding Distance**: To maintain a well-distributed set of solutions along each front, ensuring a diverse range of trade-offs.
 
-## Results
+### Results
 
 ### The Pareto Front
 
@@ -100,10 +102,10 @@ The final performance metrics are as follows:
 This study successfully shows that combining the DSSRM topology with the NSGA-II algorithm is an effective strategy for developing high-performance SRMs.
 
 
-## Prerequisites
+### Prerequisites
 
 * Necessary software or libraries: MATLAB, ANSYS Electronics Desktop (Maxwell).
 
-## Contact
+### Contact
 
 Tohid Sharifi - hamidsharifi32@gmail.com
