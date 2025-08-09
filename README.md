@@ -1,5 +1,5 @@
 # Design Optimization of a Double-Stator Switched Reluctance Motor using the NSGA-II Algorithm
-
+# Project Language: English
 > A multi-objective optimization of a Double-Stator Switched Reluctance Motor (DSSRM) using the NSGA-II algorithm. This study aims to overcome the traditional limitations of Switched Reluctance Motors (SRMs), such as high torque ripple and low torque density, by developing a design that is superior in both performance and efficiency.
 
 ## Table of Contents
