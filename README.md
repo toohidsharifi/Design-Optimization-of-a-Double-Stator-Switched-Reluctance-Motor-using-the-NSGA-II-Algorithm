@@ -1,0 +1,2 @@
+# Design-Optimization-of-a-Double-Stator-Switched-Reluctance-Motor-using-the-NSGA-II-Algorithm
+Switched reluctance motors are gaining attention for various applications due to their robust, magnet-free construction. However, their widespread adoption is often hindered by inherent drawbacks, namely high torque ripple and low torque density. This report investigates the use of a double-stator SRM topology as a means to mitigate these issues.
